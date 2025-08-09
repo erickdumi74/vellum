@@ -47,4 +47,4 @@ python game.py
 ```
 
 
-© 2025 Erick Dumitrescu. All rights reserved except as granted under the license.
+© 2025 Erick Dumitrescu - Terminal Minds. All rights reserved except as granted under the license.
