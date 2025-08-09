@@ -14,6 +14,8 @@ See the [LICENSE](LICENSE) file for full terms.
 - **You may not**: Sell, license, or monetize Vellum, or any derivative works, without **my written permission**.
 - **Commercial licensing**: Contact me if you wish to use Vellum in any commercial way.
 
+© 2025 Erick Dumitrescu - Terminal Minds. All rights reserved except as granted under the license.
+
 ---
 
 ## 📜 About the Game
@@ -45,6 +47,3 @@ cd vellum
 # Run it
 python game.py
 ```
-
-
-© 2025 Erick Dumitrescu - Terminal Minds. All rights reserved except as granted under the license.
