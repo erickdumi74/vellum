@@ -93,7 +93,7 @@ def process_command(game, command):
         if len(parts) == 2:
             item = normalize_item(parts[0].strip())
             direction = normalize_item(parts[1].strip())
-            turn_item_in_direction(item, direction)
+            turn_item_in_direction(game, item, direction)
         else:
             print("Turn command format: 'turn <item> <direction>'")
         return
