@@ -49,7 +49,7 @@ git clone https://github.com/erickdumi74/vellum.git
 cd vellum
 
 # Run it
-python game.py
+python vellum.py
 ```
 
 ### Commands
