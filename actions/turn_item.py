@@ -1,5 +1,5 @@
-from engine.item_util import match_room_item, resolve_alias
-from engine.text_util import wrap_print
+from engine.item_engine import match_room_item, resolve_alias
+from engine.text_engine import wrap_print
 
 
 def turn_prism(game, direction):

@@ -2,7 +2,7 @@ import os
 import sys
 from data.room import setup_rooms
 from data.contributor import setup_credits
-from engine.game_util import start_game
+from engine.game_engine import start_game
 
 class Game:
     def __init__(self):

@@ -5,9 +5,9 @@ from actions.turn_item import turn_item_in_direction
 from actions.say_phrase import say_phrase
 from actions.type_code import try_type_code
 from actions.enter_passage import enter_passage
-from engine.save_game_util import save_game, load_game, list_save_slots, delete_save_game
-from engine.item_util import show_inventory, normalize_item
-from engine.text_util import wrap_print
+from engine.save_engine import save_game, load_game, list_save_slots, delete_save_game
+from engine.item_engine import show_inventory, normalize_item
+from engine.text_engine import wrap_print
 from data.room import describe_study_intro
 
 
