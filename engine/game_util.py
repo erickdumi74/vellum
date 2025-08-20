@@ -1,14 +1,14 @@
-from examine_item import examine_item
-from take_item import take_item
-from use_item import use_item_on_target
-from turn_item import turn_item_in_direction
-from say_phrase import say_phrase
-from type_code import try_type_code
-from enter_passage import enter_passage
-from save_game_util import save_game, load_game, list_save_slots, delete_save_game
-from item_util import show_inventory, normalize_item
-from text_util import wrap_print
-from room import describe_study_intro
+from actions.examine_item import examine_item
+from actions.take_item import take_item
+from actions.use_item import use_item_on_target
+from actions.turn_item import turn_item_in_direction
+from actions.say_phrase import say_phrase
+from actions.type_code import try_type_code
+from actions.enter_passage import enter_passage
+from engine.save_game_util import save_game, load_game, list_save_slots, delete_save_game
+from engine.item_util import show_inventory, normalize_item
+from engine.text_util import wrap_print
+from data.room import describe_study_intro
 
 
 def print_credits(game):
@@ -44,7 +44,7 @@ def end_game(game):
     # Add any additional finalizations here, like saving progress or stats
 
 def start_game(game):
-    wrap_print(f"Welcome to {game.version}. Type 'help' to see a list of commands.\n")
+    print(f"Welcome to {game.version}. Type 'help' to see a list of commands.\n")
     
     intro = ("You wake up in a haze, in a room that looks like a study. The room is unfamiliar, and something feels... off. "
         "As your eyes adjust, you notice ")

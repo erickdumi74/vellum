@@ -1,6 +1,6 @@
 
-from item_util import describe_room_item, describe_inventory_item, resolve_alias
-from text_util import wrap_print
+from engine.item_util import describe_room_item, describe_inventory_item, resolve_alias
+from engine.text_util import wrap_print
 
 def examine_door(game, item, unlocked_flag_name, unlocked_msg, locked_msg):
     description = describe_room_item(game, item)

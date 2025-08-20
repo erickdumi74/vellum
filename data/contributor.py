@@ -1,4 +1,4 @@
-from game_util import wrap_print
+from engine.game_util import wrap_print
 
 class Contributor:
     def __init__(self, name, role, contributions):

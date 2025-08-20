@@ -1,4 +1,4 @@
-from text_util import wrap_print
+from engine.text_util import wrap_print
 
 def unlock_lab_door(game, phrase):
     if game.current_room.name == "Hallway":

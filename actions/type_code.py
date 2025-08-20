@@ -1,4 +1,4 @@
-from text_util import wrap_print
+from engine.text_util import wrap_print
 
 def type_code(game, code):
     if game.current_room.name == "Hallway":

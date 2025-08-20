@@ -1,5 +1,5 @@
-from item_util import match_room_item, resolve_alias
-from text_util import wrap_print
+from engine.item_util import match_room_item, resolve_alias
+from engine.text_util import wrap_print
 
 def take_shard(game, matched_item):
     game.flags["shard_taken"] = True

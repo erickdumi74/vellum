@@ -1,8 +1,8 @@
 import os
 import sys
-from room import setup_rooms
-from contributor import setup_credits
-from game_util import start_game
+from data.room import setup_rooms
+from data.contributor import setup_credits
+from engine.game_util import start_game
 
 class Game:
     def __init__(self):
@@ -39,7 +39,3 @@ class Game:
 
     def start(self):
         start_game(self)
-
-if __name__ == "__main__":
-    game = Game()
-    game.start()

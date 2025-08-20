@@ -1,4 +1,4 @@
-from text_util import wrap_print
+from engine.text_util import wrap_print
 
 # Entry conditions per passage
 passage_rules = {
