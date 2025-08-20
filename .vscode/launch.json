@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Vellum",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/vellum.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}

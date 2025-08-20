@@ -253,7 +253,7 @@ def describe_inventory_letter(game, item):
         item_msg = describe_inventory_item(game, item)
     return item_msg
 
-def resolve_alias_message(game, term):
+def resolve_message(game, term):
     resolved = resolve_alias(game, term)
     if not resolved:
         return None
@@ -266,7 +266,6 @@ def resolve_alias_message(game, term):
     else:  # source == "room"
         handler = examine_data.get(name)
         return handler(game, name) if handler else describe_room_item(game, name)
-
 
 inventory_describe_data = {
     "letter": describe_inventory_letter,
@@ -301,7 +300,7 @@ examine_data = {
 
 def examine(game, item):
 
-    message = resolve_alias_message(game, item)
+    message = resolve_message(game, item)
     if message:
         return message
     else:

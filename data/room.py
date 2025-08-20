@@ -25,10 +25,10 @@ def setup_rooms():
     # Study
     study = Room("Study", describe_study_intro())
     study.items_data = {
-        "fireplace": {"description": "The fireplace crackles softly, ashes glowing faintly.", "aliases": ["flickering fireplace", "wooden floorboards"]},
+        "fireplace": {"description": "The fireplace crackles softly, ashes glowing faintly.", "aliases": ["flickering fireplace"]},
         "firepoker": {"description": "A rusty firepoker that hasn't been used in a long time.", "aliases": ["poker", "fire poker", "rusty firepoker"]},
-        "floorboards": {"description": "The boards bend ever so slightly, sighing with each footstep."},
-        "desk": {"description": "An old wooden desk with a half-melted candle on top and a drawer in the middle."},
+        "floorboards": {"description": "The boards bend ever so slightly, sighing with each footstep.", "aliases": ["wooden floorboards"]},
+        "desk": {"description": "An old wooden desk with a half-melted candle on top and a drawer in the middle.", "aliases": ["wooden desk", "old desk", "old wooden desk"]},
         "candle": {"description": "The candle's wax is half-melted, its flame flickering gently.", "aliases": ["half-melted candle", "melted candle"]},
         "teacup": {"description": "A small, cracked teacup that looks like it hasn't been used in years.", "aliases": ["cracked teacup", "small teacup", "small cracked teacup"]},
         "portrait": {"description": "A faded portrait of a stern-looking man. His eyes seem to follow you.", "aliases": ["faded portrait"]},
